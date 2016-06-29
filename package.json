@@ -1,0 +1,16 @@
+{
+  "name": "@scola/bind",
+  "version": "0.0.0",
+  "description": "Bind",
+  "repository": "github:scola84/node-bind",
+  "author": "M.C. van den Boogaart <scola@kvdb.name>",
+  "license": "MIT",
+  "main": "./dist/bind.js",
+  "jsnext:main": "./src/bind.js",
+  "devDependencies": {
+    "rollup": "^0.26.3"
+  },
+  "scripts": {
+    "build": "rollup -i ./src/bind.js -o ./dist/bind.js -f cjs"
+  }
+}
